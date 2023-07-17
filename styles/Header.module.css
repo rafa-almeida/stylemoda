@@ -1,0 +1,28 @@
+.nav {
+    z-index: 1;
+    position: absolute;
+    padding-top: 30px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav a {
+    text-decoration: none; 
+    align-items: end;
+    justify-content: end;
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 40px;
+    z-index: 1;
+     
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    z-index: 1;
+    margin-right: 530px;
+}
