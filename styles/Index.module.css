@@ -1,11 +1,70 @@
-.main{
-    position: absolute;
-   z-index: -1;
-   opacity: 0.8;
+.container {
     width: 100%;
     
+}
+
+.main{
+    position: relative;
+    z-index: -1;
+    opacity: 0.8;
+    width: 100vw; 
+   
     
 };
+
+.saldo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+   padding-top: 0;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.carouselBox {
+    width: 100%;
+}
+
+.carousel1 {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 80px;
+}
+
+.cardMedia img{
+    
+    width: 100%;
+
+       
+        padding: 0;
+        margin: 0;
+    }
+
 
 
 
