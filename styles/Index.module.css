@@ -4,19 +4,11 @@
 }
 
 .main{
-    position: relative;
-    z-index: -1;
-    opacity: 0.8;
-    width: 100vw; 
+   
    
     
 };
 
-.saldo{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
-    color: red;
-}
 
 
 
