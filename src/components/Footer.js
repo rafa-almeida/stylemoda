@@ -1,24 +1,33 @@
-import { Link } from '@material-ui/core'
+
 import React from 'react'
-import footer from '../../styles/Footer.module.css'
+import { Button } from '@material-ui/core'
+import { News, Social, Condition } from './styles'
+
 
 export default function Footer() {
-    
-  
-   
-    return (
-        <>
-        <div className={footer.news}>
-            RECEBA NOSSA NEWSLETTER
         
-        <Link to='#'>TIKTOK</Link>
-        <Link>INSTAGRAM</Link>
-        <Link>FACEBOOK</Link>
-        <Link>TWITTER</Link>
-        <Link>PINTEREST</Link>
-        <Link>YOUTUBE</Link>
-        <Link>SPOTIFY</Link>
-        </div>
-        </>
+    return (
+        <News>
+            
+            <div>
+                RECEBA A NOSSA NEWSLETTER
+            </div>
+            <Social>
+                <Button href='#Tiktok'>TIKTOK</Button>
+                <Button href='#Instagram'>INSTAGRAM</Button>
+                <Button href='#Facebook'>FACEBOOK</Button>
+                <Button href='#Twitter'>TWITTER</Button>
+                <Button href='#Pinterest'>PINTEREST</Button>
+                <Button href='#Youtube'>YOUTUBE</Button>
+                <Button href='#Spotfy'>SPOTIFY</Button>
+            </Social>
+        
+            <Condition >
+                <Button href='#Cookies'>DEFINIÇÕES DE COOKIES</Button>
+                <Button href='#Privacidade'>POLÍTICA DE PRIVACIDADE E COOKIES</Button>
+                <Button href='#Condições'>CONDIÇÕES DE COMPRA</Button>
+            </Condition>
+           
+        </News>
     )
 }

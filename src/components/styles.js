@@ -1,31 +1,29 @@
 import styled  from 'styled-components'
 
 export const General = styled.body`
-    z-index: 1;
     
     
-    width: 100%;
     
 `;
 
 /* Header*/
 export const Logo = styled.h1`
-    
+    font-family: 'Cinzel';
+    font-weight:800;
+    font-size: 90px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     display: flex;
     z-index: 1;
     padding-left: 80px;
     margin-top: 60px;
-    font-size: 60px;
+    
 
 `;
 
 export const Nav = styled.nav`
- 
     z-index: 1;
     position: absolute;
-    
     width: 100vw;
     
 `;
@@ -34,30 +32,31 @@ export const Principal = styled.a`
     
     display: flex;
     text-decoration: none; 
-    align-items: center;
+    align-items: end;
     justify-content: end;
     text-transform: uppercase;
     color: #fff;    
-    z-index: 1;
+    padding-right: 30px;
     margin-top: -120px;
 
     a{
     color: #fff;    
-  
     }
 `;
 
 
 /* Index*/
 export const Video = styled.header`
-     position: relative;
-    z-index: -1;
-    opacity: 0.7;
-    width: 50%;
-    
-    source{
-        width: 50%;
-        
+    opacity: 0.6;
+    height: 108vh;
+    width: 100rem;
+    margin-bottom: 25px;
+    video{
+        position: absolute; 
+        width: 100rem;
+        z-index: -1;
+        margin-bottom: 50px;
+        margin-left:0;
     }
 `;
 
@@ -70,7 +69,7 @@ export const Sale = styled.h1`
     margin-top:0;
     height: 100vh;
     font-size: ${props => `${props.fontSize}px`};
-    
+    width:100rem;
     span {
         display: block;
         font-size:40px;
@@ -78,21 +77,23 @@ export const Sale = styled.h1`
     };
 
     img{
-        width:100%;
+        width:100rem;
         margin:0;
         
-       
     }
 `;
 
 export const Category = styled.h3`
     font-size: 50px;
     margin-bottom: 0;
+    font-family: 'Cinzel';
+    font-weight:400;
 
 `;
 
 export const Gallery = styled.div `
    display: flex;
+   
    img {
     width: 300px;
     padding:15px 15px 0 0 ;
@@ -107,11 +108,58 @@ export const Title = styled.span `
     align-items: center;
     justify-content: space-around;
     font-size: 20px;
+    font-family: 'Cinzel';
+    font-weight:400;
     color: #000000;
     margin-right:50px;
-       
-        
-      
+    
+`;
+
+
+/* FOOTER*/
+
+export const News = styled.footer `
+    margin-top:100px;
+    height: 40vh;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
 
 `;
+
+export const Social = styled.div `
+    padding-top: 100px;
+   
+
+    a{
+    font-size: 15px;
+    font-weight: 100;
+    padding-right: 40px;
+    }
+`;
+
+export const Condition = styled.div `
+    padding: 200px 0 100px 0;
+    font-size: 5px;
+    font-weight: 100;
+
+    a{
+    font-size: 10px;
+    font-weight: 100;
+    padding-right: 40px;
+    }
+`;
+
+
+
+
+
+
+
+
+
+
+
+
 
